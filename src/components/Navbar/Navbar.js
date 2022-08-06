@@ -1,10 +1,8 @@
-import { useNavigate } from "react-router-dom"
 import React from "react";
-import '../App.css'
-
+import "../Navbar/Navbar.css"
 export default function Navbar() {
-  
   return (
+    
     <header>
       <div className="nav">
         <div className="menu">
