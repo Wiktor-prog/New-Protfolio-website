@@ -17,9 +17,10 @@ export default function ContactChoise() {
                 </span>
 
                 <p>Whatsapp</p>
+               
             </a>
         </li>
-
+    
         <li>
             <a href="https://www.linkedin.com/in/wiktor-ziejewski-43b16b229/">
 

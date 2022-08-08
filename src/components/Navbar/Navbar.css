@@ -40,7 +40,6 @@ background-color: #FF019A;
 transition: 0.3s;
 bottom: 1rem;
 left: 14px;
-
 }
 .menu_top li:hover::after{
 width: 78%;

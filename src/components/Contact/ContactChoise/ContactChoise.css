@@ -5,7 +5,6 @@
   position: fixed;
   list-style: none;
   width: 100%;
-  bottom: 0;
 } 
 
 .contact-list ul{
@@ -16,11 +15,13 @@
 .contact-list li {
   padding: 20px;
   display: flex;
+  position: relative;
+  padding-top: 60%;
 }
 
 .contact-list li span {
   color: #fff;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   transition: 0.3s;
   padding-right: 1rem;
 }
@@ -30,7 +31,6 @@
   color: #fff;
   font-size: 2rem;
   font-weight: 500;
-  
 }
 
 .contact-list a {
@@ -39,12 +39,24 @@
   cursor: pointer;
 }
 
-.contact-list p:hover,
 .contact-list span:hover{
   color: #FF019A;
   transition: 0.3s;
 }
-.contact-list span:hover::after{
-  rotate: y 1turn;
+
+.contact-list a::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  display: block;
+  background-color: #FF019A;
+  transition: 0.3s;
+  bottom: 1rem;
+  left: 18px; 
+}
+
+.contact-list a:hover::after{
+  width:85%;
 }
   
