@@ -36,7 +36,6 @@
 .contact-list a {
   display: flex;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .contact-list span:hover{
