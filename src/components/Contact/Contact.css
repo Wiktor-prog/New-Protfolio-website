@@ -1,19 +1,70 @@
+
 .contenet h2 {
-  color: #fff;
-  padding-bottom: 3rem;
+  color: rgb(236, 236, 236);
+  padding-bottom: 6rem;
 }
+
 .contenet{
   justify-content: center;
   align-items: center;
   display: flex;
   position: fixed;
-  height: 80%;
+  height: 90%;
   font-size: 28px;
   width: 100%;
   background-image: url(../Assets/background.png);
   background-size: cover;
   background-position: bottom;
 }
+
 span {
-  color: #FF019A;
+  color: #eb008d;
 }
+
+.custom-shape-divider-bottom-1660470148 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 140%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1660470148 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1660470148 .shape-fill {
+  fill: #881359;
+  opacity: 0.4; 
+}
+
+.underline {
+  border-bottom: 1px solid;
+  border-radius: 10px;
+  width: 500px;
+  height: 10px;
+  background-image: linear-gradient(-45deg, #8f2966,#cc067d);
+  position: fixed;
+  background-size: 500% 500%;
+	animation: gradient 6s ease infinite;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
