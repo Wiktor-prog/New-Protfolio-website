@@ -12,9 +12,6 @@
   height: 90%;
   font-size: 28px;
   width: 100%;
-  background-image: url(../Assets/background.png);
-  background-size: cover;
-  background-position: bottom;
 }
 
 span {
@@ -47,7 +44,7 @@ span {
   border-bottom: 1px solid;
   border-radius: 10px;
   width: 500px;
-  height: 10px;
+  height: 5px;
   background-image: linear-gradient(-45deg, #8f2966,#cc067d);
   position: fixed;
   background-size: 500% 500%;
@@ -67,4 +64,11 @@ span {
 	}
 }
 
-
+@media (max-width: 768px) {
+  .contenet h2 {
+    font-size: 2rem;
+  }
+  .underline{
+    width: 400px;
+  }
+}

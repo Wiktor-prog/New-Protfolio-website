@@ -60,3 +60,14 @@
   width:85%;
 }
   
+
+@media (max-width: 768px) {
+  .contact-list li span{
+    font-size: 2rem;
+    padding-right: 4px;
+  }
+  .contact-list p  {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
