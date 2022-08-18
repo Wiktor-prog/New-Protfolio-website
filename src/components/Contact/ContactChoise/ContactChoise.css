@@ -1,11 +1,9 @@
 
 .contact-list {
   justify-content: center;
-  position: relative;
   display: flex;
   position: fixed;
   list-style: none;
-  width: 100%;
 } 
 
 .contact-list ul{
@@ -22,7 +20,7 @@
 
 .contact-list li span {
   color:  rgb(236, 236, 236);
-  font-size: 2.6rem;
+  font-size: 2rem;
   padding-right: 1rem;
   transition: 0.3s;
 }
@@ -30,7 +28,7 @@
 .contact-list p {
   margin: 0; 
   color:  rgb(236, 236, 236);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -64,10 +62,26 @@
 @media (max-width: 768px) {
   .contact-list li span{
     font-size: 2rem;
-    padding-right: 4px;
+    flex-flow: column nowrap;
+    display: flex;
   }
   .contact-list p  {
     padding: 10px;
     font-size: 14px;
+  }
+  .contact-list ul{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .contact-list li {
+    padding: 12px;
+    display: flex;
+  }
+  .contact-list{
+    padding-top: 16rem;
+  }
+  .contact-list a::after {
+    bottom: 8px;
+    left: 12px; 
   }
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import "../Navbar/Navbar.css"
-import RightNav from "../Navbar/RightNav";
+import BurgerMenu from "./BergerMenu";
 
 export default function Navbar() {
   return (
     <nav>
-      <RightNav />
+      <BurgerMenu />
     </nav>
 
 
