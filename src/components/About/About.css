@@ -1,0 +1,32 @@
+
+.about-page {
+  margin: auto;
+  max-width: 90vw;
+  padding: 20px ;
+}
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px ;
+  border-radius: 3rem;
+  background-image: linear-gradient(45deg, #531945,#080b35);
+}
+
+.about-grid {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem auto auto;
+  flex-wrap: wrap;
+}
+
+.about-cell {
+  flex: 1 1 200px;
+  background-image: linear-gradient(45deg, #531945,#080b35);
+  box-shadow: 1px 6px rgb(172, 41, 106);
+  border-radius: 3rem;
+  padding: 3.5rem;
+  height: 300px;
+
+
+}
