@@ -1,16 +1,18 @@
 
 .about-page {
   margin: auto;
-  max-width: 90vw;
-  padding: 20px ;
+  max-width: 1200px;
+  padding: 3rem;
 }
+
 .about-header {
   display: flex;
   align-items: center;
   gap: 1rem;
   padding: 20px ;
-  border-radius: 3rem;
+  border-radius: 1rem;
   background-image: linear-gradient(45deg, #531945,#080b35);
+  box-shadow: 1px 6px rgb(172, 41, 106);
 }
 
 .about-grid {
@@ -18,15 +20,92 @@
   gap: 1.5rem;
   margin: 2rem auto auto;
   flex-wrap: wrap;
+
+}
+.about-cell a ,
+.about-cell p  {
+  color: #fff;
+  font-size: 14.5px;
+}
+
+h3 {
+  color: #fff;
+  padding-bottom: 10px;
 }
 
 .about-cell {
   flex: 1 1 200px;
   background-image: linear-gradient(45deg, #531945,#080b35);
   box-shadow: 1px 6px rgb(172, 41, 106);
-  border-radius: 3rem;
+  border-radius: 1rem;
   padding: 3.5rem;
-  height: 300px;
+  height: 500px;
+}
 
 
+.bar {
+  background: #0a0324;
+  display: block;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 12px 0;
+}
+.about-cell-skills {
+  padding-top: 20px;
+}
+
+.bar span {
+  height: 2px;
+  padding: 1px;
+  float: left;
+  background: rgb(216, 46, 145)
+}
+
+.first-bar {
+  width: 45%;
+}
+.second-bar {
+  width: 33%;
+}
+.third-bar {
+  width: 33%;
+}
+.fourth-bar {
+  width: 33%;
+}
+.fifth-bar {
+  width: 50%;
+}
+.sixth-bar {
+  width: 75%;
+}
+.seventh-bar {
+  width: 40%;
+}
+.eighth-bar {
+  width: 75%;
+}  
+
+
+.custom-shape-divider-bottom-1660470148 {
+  position:relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1660470148 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1660470148 .shape-fill {
+  fill: #881359;
+  opacity: 0.4; 
 }
