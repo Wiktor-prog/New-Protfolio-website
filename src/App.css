@@ -1,10 +1,5 @@
-
-.App {
-margin: 0 auto;
-padding: 0 auto;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 body {
-min-height: 100vh;
-background: linear-gradient(90deg, rgba(2,2,34,1) 0%, rgba(18,18,18,1) 100%);
+background: linear-gradient(90deg, rgb(28, 27, 66) 0%, rgb(50, 6, 61) 50%);
 }
+

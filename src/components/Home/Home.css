@@ -1,0 +1,36 @@
+
+.content {
+  padding: 6rem;
+}
+
+.content h1 {
+  font-size: 64px;
+  color: #fff;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 42px;
+}
+.content h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.icon-row  {
+  display: flex;
+  position: relative;
+}
+
+.icon-row li {
+  display: flex;
+  font-size: 40px;
+  list-style: none;
+  color: #fff;
+}
+
+
+
+
+
+
+

@@ -8,6 +8,7 @@
 
 .contact-list ul{
   display: flex;
+  overflow: hidden;
   padding: 0;
 }
 
@@ -57,7 +58,6 @@
 .contact-list a:hover::after{
   width:85%;
 }
-  
 
 @media (max-width: 768px) {
   .contact-list li span{

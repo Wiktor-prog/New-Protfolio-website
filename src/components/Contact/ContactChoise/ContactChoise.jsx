@@ -1,8 +1,6 @@
 import React from "react";
 import "../ContactChoise/ContactChoise.css"
-
 import { FaWhatsappSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-
 
 export default function ContactChoise() {
   return (

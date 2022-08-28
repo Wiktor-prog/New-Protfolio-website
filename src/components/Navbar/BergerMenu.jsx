@@ -1,18 +1,17 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
-import RightNav from "../Navbar/RightNav"
+import RightNav from "./RightNav"
 
 const StyledBurgerMenu = styled.div`
-  width: 1.5rem;
+  width: 1rem;
   height: 2rem;
   position: fixed;
   top: 15px;
   padding:20px;
   right: 20px;
-  z-index: 20;
+  z-index: 999;
   display: none;
-
-
+  
 @media (max-width: 768px) {
   display: flex;
   justify-content: space-around;

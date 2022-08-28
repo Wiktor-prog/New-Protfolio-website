@@ -4,7 +4,7 @@
   padding-bottom: 6rem;
 }
 
-.contenet{
+.container {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -18,29 +18,7 @@
 }
 
 span {
-  color: #eb008d;
-}
-
-.custom-shape-divider-bottom-1660470148 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1660470148 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 80px;
-}
-
-.custom-shape-divider-bottom-1660470148 .shape-fill {
-  fill: #881359;
-  opacity: 0.4; 
+  color: rgb(235, 0, 141);
 }
 
 .underline {
