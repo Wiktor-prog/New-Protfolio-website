@@ -16,7 +16,6 @@ export default function Home() {
             I decided to combine those two into one- and become a Front-end developer</h3>
 
         <Button/>
-
       </div> 
       <Wave/>
   </div>

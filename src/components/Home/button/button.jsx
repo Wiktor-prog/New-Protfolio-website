@@ -5,13 +5,11 @@ import "../button/button.css"
 export default function BtnHome() {
 
   let navigate= useNavigate()
-  
+
   return (
     <button 
     className="about-btn-main"
     onClick={() => navigate("/About")}
     >About me</button>
-    
-
   )
 }

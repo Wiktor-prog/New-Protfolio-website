@@ -7,7 +7,5 @@ export default function Navbar() {
     <nav>
       <BurgerMenu />
     </nav>
-
-
   )
 }

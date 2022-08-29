@@ -30,6 +30,5 @@ export default function About() {
           </div>
         </main>
     </div>
-    
   )
 }
