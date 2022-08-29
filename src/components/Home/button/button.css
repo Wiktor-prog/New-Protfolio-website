@@ -13,8 +13,20 @@
   background: rgb(241,66,159);
   background: linear-gradient(45deg, rgba(204, 23, 129, 0.862) 20%, rgba(7, 62, 82, 0.783) 100%);
 }
+
 .about-btn-main:hover {
   background: rgb(241,66,159);
   background: linear-gradient(45deg, rgba(170, 31, 105, 0.862) 20%, rgba(20, 115, 150, 0.4) 100%);
+}
 
+@media (max-width: 768px)  {
+  .about-btn-main {
+    width: 120px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .about-btn-main:hover {
+    background: rgb(241,66,159);
+    background: linear-gradient(45deg, rgba(170, 31, 105, 0.862) 20%, rgba(20, 115, 150, 0.4) 100%);
+  }
 }

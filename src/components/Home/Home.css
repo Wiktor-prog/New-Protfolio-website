@@ -1,4 +1,6 @@
-
+.home {
+  height: 80vh;
+}
 .content {
   padding: 6rem;
 }
@@ -28,7 +30,26 @@
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .content {
+    padding:3em;
+  }
 
+  .content h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .content h2 {
+    color: #fff;
+    font-size: 18px;
+  }
+  .content h3 {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 12px;
+  }
+}
 
 
 

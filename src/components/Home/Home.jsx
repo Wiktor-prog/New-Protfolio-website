@@ -18,7 +18,7 @@ export default function Home() {
         <Button/>
 
       </div> 
-        <Wave/>
+      <Wave/>
   </div>
 
   )
