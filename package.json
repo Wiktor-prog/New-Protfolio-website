@@ -1,6 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
+  "homepage": "https://Wiktor-prog.github.io/Portfolio_Wiktor",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
