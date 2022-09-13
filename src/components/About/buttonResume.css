@@ -1,0 +1,13 @@
+.resume a{
+ font-size: 16px;
+ font-weight: 500;
+}
+
+.resume a:hover{
+  color: #ff0095;
+  transition: 0.4s;
+}
+
+.resume {
+  padding-top: 2rem;
+}

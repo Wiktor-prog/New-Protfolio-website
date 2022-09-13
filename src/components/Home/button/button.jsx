@@ -2,8 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../button/button.css"
 
-export default function BtnHome() {
-
+export default function BtnAbout() {
   let navigate= useNavigate()
 
   return (

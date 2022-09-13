@@ -1,6 +1,5 @@
 {
   "name": "portfolio-website",
-  "homepage": "http://www.wiktor-ziejewski.website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

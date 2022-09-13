@@ -4,7 +4,8 @@
   font-weight: 300;
   outline: none;
   border: none;
-  border-radius: 20px;
+  margin-top: 1rem;
+  border-radius: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
 	box-shadow: 0 4px 8px 0 rgba(240, 80, 225, 10);
@@ -21,8 +22,8 @@
 
 @media (max-width: 768px)  {
   .about-btn-main {
-    width: 120px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
     font-size: 10px;
   }
   .about-btn-main:hover {
