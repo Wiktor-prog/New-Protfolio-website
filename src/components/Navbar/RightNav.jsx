@@ -50,13 +50,13 @@ export default function RightNav({ open }) {
         <li>
           <a 
           className="nav_Btns" 
-          href="/">Home</a>
+          href="#home">Home</a>
         </li>
 
         <li>
           <a 
           className="nav_Btns" 
-          href="/about">About me</a>
+          href="#about">About me</a>
         </li>
 
         <li>
@@ -68,7 +68,7 @@ export default function RightNav({ open }) {
         <li>
           <a 
           className="nav_Btns" 
-          href="/contact">Contact</a>
+          href="#contact">Contact</a>
         </li>   
     </ul>
     </StyledNav>

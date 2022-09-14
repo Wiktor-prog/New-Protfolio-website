@@ -1,7 +1,7 @@
-.about-page {
+.about {
   margin: auto;
   max-width: 1200px;
-  padding: 2rem;
+  padding: 1.5rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
@@ -17,8 +17,8 @@
 }
 
 .about-header img {
-  width: 120px;
-  height: 140px;
+  width: 110px;
+  height: 120px;
   border-radius: 50%  30% 60% 60% 
 }
 
@@ -37,12 +37,12 @@
 
 .info-content {
   padding-right: 2rem;
-}
+} 
 
 .about-grid {
   display: flex;
-  gap: 2.5rem;
-  margin: 2.5rem auto auto;
+  gap: 3rem;
+  margin: 3rem auto auto;
   flex-wrap: wrap;
 }
 
@@ -88,7 +88,7 @@ h3 {
 }
 
 .first-bar {
-  width: 35%;
+  width: 40%;
 }
 .second-bar {
   width: 30%;

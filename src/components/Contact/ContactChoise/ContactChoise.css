@@ -2,7 +2,7 @@
 .contact-list {
   justify-content: center;
   display: flex;
-  position: fixed;
+  position: absolute;
   list-style: none;
 } 
 

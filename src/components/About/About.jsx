@@ -4,7 +4,7 @@ import ButtonResume from "../About/buttonResume"
 
 export default function About() { 
   return(
-    <div className="about-page">
+    <section className="about" id="#about">
       <header className="about-header">
         <img src={require('../Assets/pfolio.png')} />
           <div className="info-content">
@@ -21,7 +21,8 @@ export default function About() {
             <p>As I'm  just starting my adventure with the front-end - I don't have job experience in this field, but I'm willing to learn, discover and become better. I finished a front-end course at Kodilla where I learned HTML CSS JavaScript and React. 
               I'm also familiar with how some of the project's processes look - but I never worked on a tech project in a tech company - so you need to give me some time.  I'm looking for a place that will help me to grow, become a better developer 
               by practicing and learning from the more senior team members.</p>
-          <ButtonResume/>    
+          <ButtonResume/>   
+
         </div>
           
         <div className="about-cell">  
@@ -36,6 +37,6 @@ export default function About() {
             </div>
           </div>
         </main>
-      </div>
+      </section>
   )
 }
