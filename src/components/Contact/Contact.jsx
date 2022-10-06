@@ -7,7 +7,7 @@ export default function Contact() {
 
   <div className="contact" id="contact">
     <div className="container">
-      <h2>If you whant <span> Contact</span> me</h2>
+      <h2><span>Contact</span> me</h2>
         <div className="underline">
           <p></p>
         </div>

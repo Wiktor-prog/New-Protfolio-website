@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../../newCV.pdf";
+import pdf from "../../Cvnewnew.pdf";
 import "../About/buttonResume.css"
 
 export default function Resume() {

@@ -50,13 +50,7 @@ export default function RightNav({ open }) {
         <li>
           <a 
           className="nav_Btns" 
-          href="#home">Home</a>
-        </li>
-
-        <li>
-          <a 
-          className="nav_Btns" 
-          href="#about">About me</a>
+          href="#home" >Home</a>
         </li>
 
         <li>
