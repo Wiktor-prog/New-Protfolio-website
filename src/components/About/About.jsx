@@ -9,8 +9,7 @@ export default function About() {
         <img src={require('../Assets/pfolio.png')} />
           <div className="info-content">
             <h1>Wiktor</h1>
-              <p>I'm a digital native interested
-                in video games and graphic design. As I like koding as much as graphic design.
+              <p>I'm a digital native with a geek approach. I love video games. I'm interested in design, coding and tech industry. 
               </p>
           </div>
       </header>
@@ -18,9 +17,11 @@ export default function About() {
       <main className="about-grid">
         <div className="about-cell">
           <h3>About me</h3>
-            <p>As I'm  just starting my adventure with the front-end - I don't have job experience in this field, but I'm willing to learn, discover and become better. I finished a front-end course at Kodilla where I learned HTML CSS JavaScript and React. 
-              I'm also familiar with how some of the project's processes look - but I never worked on a tech project in a tech company - so you need to give me some time.  I'm looking for a place that will help me to grow, become a better developer 
-              by practicing and learning from the more senior team members.</p>
+            <p>I'm just starting my adventure with #tech industry - and I don't have much experience - but I'm willing to learn and become better. 
+              Few months ago I finished a front-end course at Kodilla where I learned HTML CSS JavaScript and React.
+               I'm also familiar with how some of the project's processes look like ( I worked with Jira and I know basics of Agile / SCRUM). 
+               I'm looking for a place that will help me to grow, ad help me discover my own path - 
+               as a FE developer, tester or maybe other role - I'm open for multiple options..</p>
           <ButtonResume/>   
 
         </div>
@@ -30,7 +31,7 @@ export default function About() {
             <div className="about-cell-skills">
                 <li><a>HTML, CSS</a><span class="bar"><span class="first-bar"></span></span></li>
                 <li><a>JavaScript, React</a><span class="bar"><span class="second-bar"></span></span></li>
-                <li><a>Jira, CMS</a><span class="bar"><span class="second-bar"></span></span></li>
+                <li><a>Jira, Agile / SCRUM</a><span class="bar"><span class="second-bar"></span></span></li>
                 <li><a>Git, GitHub, GitBash</a><span class="bar"><span class="third-bar"></span></span></li>
                 <li><a>Adobe suite (Photoshop/Illustrator)</a><span class="bar"><span class="fourth-bar"></span></span></li>
                 <li><a>English</a><span class="bar"><span class="fiveth-bar"></span></span></li>
