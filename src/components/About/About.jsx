@@ -29,10 +29,11 @@ export default function About() {
         <div className="about-cell">  
           <h3>My skills <span>&</span> expriences</h3>
             <div className="about-cell-skills">
-                <li><a>HTML, CSS</a><span class="bar"><span class="first-bar"></span></span></li>
+                <li><a>HTML, CSS, SCSS/SASS</a><span class="bar"><span class="first-bar"></span></span></li>
                 <li><a>JavaScript, React</a><span class="bar"><span class="second-bar"></span></span></li>
                 <li><a>Jira, Agile / SCRUM</a><span class="bar"><span class="second-bar"></span></span></li>
                 <li><a>Git, GitHub, GitBash</a><span class="bar"><span class="third-bar"></span></span></li>
+                <li><a>MySQL, PopSQL</a><span class="bar"><span class="second-bar"></span></span></li>
                 <li><a>Adobe suite (Photoshop/Illustrator)</a><span class="bar"><span class="fourth-bar"></span></span></li>
                 <li><a>English</a><span class="bar"><span class="fiveth-bar"></span></span></li>
             </div>

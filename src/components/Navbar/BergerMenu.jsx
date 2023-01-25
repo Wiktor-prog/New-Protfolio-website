@@ -18,7 +18,6 @@ const StyledBurgerMenu = styled.div`
   flex-flow: column nowrap;
 }
 
-  
 div {
   width: 2rem;
   height: 0.2rem;
@@ -43,7 +42,6 @@ div {
 
 export default function BurgerMenu() {  
   const [open, setOpen] = useState(false)
-
   return (
     <>
       <StyledBurgerMenu open={open} onClick={() => setOpen(!open)}>
